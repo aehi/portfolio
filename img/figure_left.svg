@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 487 465" style="enable-background:new 0 0 487 465;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#10C9C3;}
+	.st3{fill:none;stroke:#10C9C3;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:url(#새_패턴_견본_4);}
+	.st5{fill:url(#새_패턴_견본_5);}
+</style>
+<pattern  x="-394" y="871" width="13.32" height="13.32" patternUnits="userSpaceOnUse" id="새_패턴_견본_4" viewBox="0 -13.32 13.32 13.32" style="overflow:visible;">
+	<g>
+		<rect y="-13.32" class="st0" width="13.32" height="13.32"/>
+		<circle class="st1" cx="6.66" cy="-6.66" r="2.66"/>
+	</g>
+</pattern>
+<pattern  x="-394" y="871" width="6.3" height="6.3" patternUnits="userSpaceOnUse" id="새_패턴_견본_5" viewBox="0 -6.3 6.3 6.3" style="overflow:visible;">
+	<g>
+		<rect y="-6.3" class="st0" width="6.3" height="6.3"/>
+		<circle class="st2" cx="3.15" cy="-3.15" r="1.65"/>
+	</g>
+</pattern>
+<g id="레이어_2">
+	<g>
+		<path class="st1" d="M281.13,95.99V457H8V95.99H281.13 M289.13,87.99H0V465h289.13V87.99L289.13,87.99z"/>
+	</g>
+</g>
+<g id="레이어_3">
+	<polyline class="st3" points="167.04,310.74 156.04,315.21 156.02,315.2 154.38,303.43 143.38,307.9 143.36,307.89 141.72,296.12 
+		130.72,300.59 130.7,300.58 129.06,288.81 118.05,293.28 118.04,293.27 116.4,281.5 	"/>
+</g>
+<g id="레이어_4">
+	<rect x="287.13" y="0.52" class="st4" width="169" height="169"/>
+</g>
+<g id="레이어_6">
+	<rect x="376.62" y="330.45" class="st5" width="110.38" height="73.52"/>
+</g>
+</svg>

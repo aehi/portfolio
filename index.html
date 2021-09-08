@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="css/yeon.css" rel="stylesheet">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/yeon.js"></script>
+    <title>Kim Nayeon - Web publisher</title>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="headerInner">
+                <h1 class="logo">
+                    <a href="index.html"><img src="img/logo_header.png" alt="김나연 포트폴리오"></a>
+                </h1>
+                <button class="btn_nav mobile">
+                    <span>메뉴열기</span>
+                    <span></span>
+                    <span></span>
+                </button>  
+            
+                <nav id="navWrap">
+                    <ul class="gnb">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#works">work</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>  <!-- // gnb -->
+                </nav>  <!-- // navWrap -->
+            </div>  <!-- // headerInner -->
+        </header>  <!-- // header -->
+
+        <div id="visual">
+            <div class="visualInner">
+                <figure class="img_wrap">
+                    <span></span>  
+                </figure>
+                <div class="text_wrap">
+                    <i>Hi! I’m</i>  
+                    <h2>Nayeon Kim.
+                        <span>Web Publisher</span>
+                    </h2>
+                    <a href="#works" class="btn btn_view">VIEW MY WORK</a>
+                </div>
+            </div>
+        </div>  <!-- // visual -->
+
+        <div id="mainContents">
+            <section id="about">
+                <div class="aboutInner">
+                    <h2>About Me</h2>
+                    <p>새로운 도전을 좋아하고 시작한 것에는 책임감을 가지고 완성합니다. 
+                        시안을 똑같이 보이게끔 만드는 것에서 끝이 아니라 논리적인 구조를 정확히 마크업하고 
+                        사용성,  편의성과 접근성을 높이는 사용자 중심 코딩을 하는 웹 퍼블리셔입니다.
+                    </p>
+                </div>
+            </section>  <!-- // about -->
+
+            <section id="skills">
+                <div class="skillsInner">
+                    <span class="skills_right">스킬 이미지</span>
+                    <div class="skills_left">
+                        <h2>Professional Skills</h2>
+                        <ul class="skills_bar">
+                            <li>
+                                HTML5/CSS3
+                                <div class="bar b1"></div>
+                            </li>
+                            <li>
+                                jQuery
+                                <div class="bar b2"></div>
+                            </li>
+                            <li>
+                                Ps/Ai
+                                <div class="bar b3"></div>
+                            </li>
+                        </ul>
+                    </div>    <!-- // barWrap -->
+                </div>    <!-- // skillsInner -->
+            </section>  <!-- // skills -->
+
+            <section id="works">
+                <div class="worksInner">
+                    <h2>My Works</h2>
+                    <ul class="clear">
+                        <li class="works1">
+                            <a href="#null" class="popup">
+                                <img src="img/img_works1.jpg" alt="페레로로쉐 이미지">
+                                <div class="text_wrap">
+                                    <i>Responsive Web</i>
+                                    <h3>FERRERO ROCHER Renewal</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="works2">
+                            <a href="#null" class="popup">
+                                <img src="img/img_works2.jpg" alt="청정원 이미지">
+                                <div class="text_wrap">
+                                    <i>Responsive Web</i>
+                                    <h3><span>청정원 </span>Clone Coding</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="works3 prepare">
+                            <a href="#null">
+                                <img src="img/icon_computer.png" alt="컴퓨터아이콘">준비중
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="btn_wrap">
+                        <button class="btn btn_more">LOAD MORE</button>
+                    </div> 
+                </div>  <!-- //My WorksInner -->  
+            </section>  <!-- //My Works -->
+            
+            <section id="contact">
+                <div class="contactInner">
+                    <h2>Contact</h2>
+                    <p>If you have a question or just want to say hi,<span></span> you can send me a message here.</p>
+                    <form class="contact_form" action="https://formspree.io/f/xnqllnoo" method="POST">
+                        <label for="name" class="blind">이름</label>
+                        <input id="name" type="text" placeholder="Name" name="name" required>
+                        <label for="email" class="blind">이메일</label>
+                        <input id="email" type="email" placeholder="Email" name="email" required>
+                        <label for="message" class="blind">메세지</label>
+                        <textarea id="message" placeholder="Type messsge Here" name="message" required></textarea>
+                        <div class="btn_wrap">
+                            <button class="btn btn_submit" type="submit">SEND MESSAGE</button>
+                        </div>
+                    </form>
+                </div>  <!-- //contactInner -->
+            </section>  <!-- //contact -->
+        </div>  <!-- // mainContents -->
+        <footer>
+            <div class="footerInner">
+                <div class="copy">
+                    <span><img src="img/logo_footer.png" alt="포트폴리오 로고"></span>
+                    <em><a href="mailTo:kno1120@naver.com">kno1120@naver.com</a></em>
+                    <cite>Copyright ©yeon. All rights reserved.</cite>
+                </div>
+            </div>
+        </footer>  <!-- // footer -->
+    </div>  <!-- // wrap -->  
+
+
+    <!-- My Works details modal-->
+   
+    <div class="view_layer ferrero">
+        <div class="layerInner">
+            <div class="img_wrap"><img src="img/img_wsdetail1.jpg" alt="페레로로쉐 디스플레이별 이미지"></div>
+            <article class="text_wrap">
+                <h3>FERRERO ROCHER</h3>
+                <i>Renewal</i>
+                <p>페레로 로쉐는 브랜드 사이트로, 상품을 구매하기 
+                    보단 브랜드에 관심이 많은 사용자들의 니즈를 
+                    고려해 홈페이지의 메인에는 기업의 가치와 함께 
+                    브랜드 소개 및 역사, 페레로 로쉐 레시피등을 
+                    위치시켰고 사용자들이 빠르고 편리하게 니즈를 
+                    충족할 수 있도록 간결하고 쉬운 레이아웃으로 
+                    구현하였습니다. 
+                    또한 사용자의 지루함을 덜하기 위해 아이콘에 
+                    움직이는 모션을 주고 스크롤 시 각 컨텐츠들이 
+                    나타나도록 했습니다.
+                </p>
+                <ul class="info">
+                    <li>Type: <span>Responsive Web</span></li>
+                    <li class="clear">
+                        Color: 
+                        <ul class="color">
+                            <li>#bea97c</li>
+                            <li>#a08972</li>
+                            <li>#fff</li>         
+                            <li>#000</li> 
+                        </ul>
+                    </li>
+                    <li>Date: <span>2021. 05</span></li>
+                </ul>
+                <a href="https://aehi.github.io/portfolio/" class="btn btn_site">VIEW SITE</a>
+            </article>
+            <button class="btn_close" onClick="popclose();"></button>
+        </div>    
+    </div>  <!-- // view_layer ferrero -->
+    
+    <div class="view_layer cheongjeongwon hide">
+        <div class="layerInner">
+            <div class="img_wrap"></div>
+            <article class="text_wrap">
+                <h3>청정원</h3> 
+                <i>Clone Coding</i>
+                <p>청정원 사이트를 클론 코딩했습니다.</p>
+                <ul class="info">
+                    <li>Type: <span>Responsive Web</span></li>
+                    <li>Date: <span>2020. 09</span></li>
+                </ul>
+                <a href="#" class="btn btn_site">VIEW SITE</a>
+                <button class="btn_close" onClick="popclose();"></button>
+            </article>
+        </div>
+    </div>  <!-- // view_layer 청정원-->
+    <div class="view_layer portfolio hide">
+        <div class="layerInner">
+            <div class="img_wrap"></div>
+            <article class="text_wrap">
+                <h3>포트폴리오</h3>
+                <i>구축</i>
+                <p>포트폴리오 코딩
+                </p>
+                <ul class="info">
+                    <li>Type:<span>Responsive Web</span></li>
+                    <li>Date:<span>2021. 09</span></li>
+                </ul>
+                <a href="#" class="btn btn_site">VIEW SITE</a>
+                <button class="btn_close"></button>
+            </article>
+        </div>    
+    </div>  <!-- // view_layer portfolio-->
+
+</body>
+</html>
