@@ -32,12 +32,16 @@ $(function(){
 
     $('.works1 .popup').click(function(){
         $('.ferrero').show();
-        $('body').addClass('no-scroll');
+        $('body').toggleClass('no-scroll');
     }); 
     $('.works2 .popup').click(function(){
         $('.cheongjeongwon').show();
-        $('body').addClass('no-scroll');
-    });    
+        $('body').toggleClass('no-scroll');
+    });  
+    $('.works3 .popup').click(function(){
+        $('.portfolio').show();
+        $('body').toggleClass('no-scroll');
+    })  
     $('.btn_close').click(function(){
         $('.view_layer').hide();
         $('body').removeClass('no-scroll');
