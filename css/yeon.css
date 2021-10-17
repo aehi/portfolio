@@ -432,11 +432,16 @@ header.fixed .btn_nav.on span {
     text-align:center;
     margin-bottom:40px;
     line-height:1.577;
-    color:#797979;
+    color:#787878;
 }
 .contactInner p span {
     display:block;
 }
+
+.contact_form input:focus::placeholder,
+.contact_form textarea:focus::placeholder {opacity:0;}
+.contact_form input:blur::placeholder,
+.contact_form textarea:blur::placeholder {opacity:1;}
 .contactInner .contact_form input[type="text"] {
     margin-right:15px;
 }
