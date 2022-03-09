@@ -339,8 +339,9 @@ header.fixed .btn_nav.on span {
     width:100%;
     height:100%;
     object-fit:cover;
-    object-position:0 85%;
+    object-position:center;
 }
+
 .worksInner .text_wrap {
     position:absolute;
     top:0;
@@ -372,17 +373,10 @@ header.fixed .btn_nav.on span {
     font-size:1.7rem;
     font-weight:500;
 }
-.worksInner .works2 img {
+.worksInner .view_layer img {
     object-position:bottom;
 }
-.worksInner .works2 span {
-    font-family:'Noto Sans KR','돋움',dotum,sans-serif;
-}
 
-
-.worksInner .works3 img {
-    object-position:55% 50%;
-}
 .worksInner .prepare {
     background-image:none;
     background-color:#10c9c3;
@@ -401,8 +395,8 @@ header.fixed .btn_nav.on span {
     margin:80px 50% 15px;
     transform:translateX(-50%);
 }
-.worksInner .works4 {display:none;}
-.worksInner.active .works3, .worksInner.active .works4 {
+.worksInner li:nth-child(3) ~ li {display:none;}
+.worksInner.active li:nth-child(3) ~ li {
     display:block;
 }
 
@@ -574,6 +568,7 @@ footer {
 }
 .view_layer .info {
     float:left;
+    font-family:'Noto Sans KR','돋움',dotum,sans-serif;
     font-size:1.3rem;
     line-height:1.577;
     padding-bottom:30px;
@@ -581,16 +576,22 @@ footer {
 }
 .view_layer .info > li {
     position:relative;
-    font-weight:500;
     color:#171717;
 }
 .view_layer .info > li span {
     color:#787878;
 }
 
-.view_layer .btn_site {
+.view_layer .btn_wrap {
     float:right;
+}
+.view_layer .btn_site {
     text-align:center;
+}
+.view_layer .btn_wrap > span {
+    display:block;
+    text-align:center;
+    margin-top:5px;
 }
 
 .view_layer .btn_close {
@@ -1202,9 +1203,12 @@ body.no-scroll {
         padding-bottom:33px;
     }
    
-    .view_layer .btn_site {
+    .view_layer .btn_wrap {
         float:none;
-        margin-bottom:80px;
+    }
+    .view_layer .btn_wrap > span {
+        text-align:left;
+        margin-top:10px;
     }
     .view_layer .btn_close {
         width:35px;
@@ -1348,9 +1352,7 @@ body.no-scroll {
     .view_layer .text_wrap h3 {
         font-size:3rem;
     }
-    .view_layer .btn_site {
-        margin-bottom:90px;
-    }
+
    
   
 }

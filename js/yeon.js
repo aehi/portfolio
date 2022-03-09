@@ -31,15 +31,27 @@ $(function(){
     });
 
     $('.works1 .popup').click(function(){
-        $('.ferrero').show();
+        $('.works1').show();
         $('body').toggleClass('no-scroll');
     }); 
     $('.works2 .popup').click(function(){
-        $('.cheongjeongwon').show();
+        $('.works2').show();
         $('body').toggleClass('no-scroll');
     });  
     $('.works3 .popup').click(function(){
-        $('.portfolio').show();
+        $('.works3').show();
+        $('body').toggleClass('no-scroll');
+    })  
+    $('.works4 .popup').click(function(){
+        $('.works4').show();
+        $('body').toggleClass('no-scroll');
+    })  
+    $('.works5 .popup').click(function(){
+        $('.works5').show();
+        $('body').toggleClass('no-scroll');
+    })  
+    $('.works6 .popup').click(function(){
+        $('.works6').show();
         $('body').toggleClass('no-scroll');
     })  
     $('.btn_close').click(function(){
@@ -58,4 +70,5 @@ $(function(){
             $('.btn_more').text('LOAD MORE');
         }
     });
+
 })    
