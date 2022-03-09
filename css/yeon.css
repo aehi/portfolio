@@ -12,6 +12,8 @@ html, body, p, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, t
 html {
     font-size:0.625em;
     color:#191919;
+    scroll-behavior:smooth;
+    scroll-padding-top:60px;
 }
 body, h1, h2, h3, h4, h5, h6, button {
     font-family:'Montserrat', 'Noto Sans KR', '돋움', dotum, sans-serif;
@@ -617,6 +619,9 @@ body.no-scroll {
 /* tablet 768 */
 @media all and (min-width:768px){
 
+    html {
+        scroll-padding-top:80px;
+    }
     /* btn - 768 */
 
     .btn {
@@ -896,6 +901,9 @@ body.no-scroll {
     .pc {display:block;}
     .mobile {display:none;}
 
+    html {
+        scroll-padding-top:90px;
+    }
 
     /* header - 1024 */
     header {
