@@ -36,6 +36,10 @@ button {
     background-color:transparent;
     cursor:pointer;
 }
+form {
+    font-size: 0; /*input 사이 margin */
+}
+
 
 /* common */
 .hide {display: none;}
@@ -438,11 +442,12 @@ header.fixed .btn_nav.on span {
 .contact_form textarea:focus::placeholder {opacity:0;}
 .contact_form input:blur::placeholder,
 .contact_form textarea:blur::placeholder {opacity:1;}
+
 .contactInner .contact_form input[type="text"] {
     margin-right:15px;
 }
 .contactInner .contact_form input {
-    width:calc(50% - 9px);
+    width:calc(50% - 7.6px);
     height:40px;
     padding-left:15px;
     border:none;
@@ -810,7 +815,7 @@ body.no-scroll {
         margin-right:30px;
     }
     .contactInner .contact_form input {
-        width:calc(50% - 17px);
+        width:calc(50% - 15.1px);
         height:48px;
         padding-left:19px;
         font-size:1.4rem;
@@ -1144,9 +1149,7 @@ body.no-scroll {
         font-size:1.6rem;
         margin-bottom:30px;
     }
-    .contactInner .contact_form input[type="text"] {
-        margin-right:30px;
-    }
+   
     .contactInner .contact_form input {
         height:48px;
         font-size:1.5rem;
