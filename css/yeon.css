@@ -526,8 +526,6 @@ footer {
     left:50%;
     transform:translate(-50%,-50%);
     width:90%;
-    height:95%;
-    max-height:740px;
     background-color:#fff;
     border-radius:6px;
     overflow:hidden;
@@ -620,7 +618,13 @@ body.no-scroll {
     overflow: hidden;
 }
 
-
+/* mobile 500 */
+@media all and (min-width:500px){
+    .view_layer .layerInner {
+        height:95%;
+        max-height:740px;
+    }
+}
 /* tablet 768 */
 @media all and (min-width:768px){
 
