@@ -54,6 +54,10 @@ $(function(){
         $('.works6').show();
         $('body').toggleClass('no-scroll');
     })  
+    $('.works7 .popup').click(function(){
+        $('.works7').show();
+        $('body').toggleClass('no-scroll');
+    })  
     $('.btn_close').click(function(){
         $('.view_layer').hide();
         $('body').removeClass('no-scroll');
